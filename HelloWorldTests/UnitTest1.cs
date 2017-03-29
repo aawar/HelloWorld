@@ -22,7 +22,7 @@ namespace HelloWorldTests
         [TestMethod]
         public void TestCalucalteDifference()
         {
-            Assert.AreEqual(1, Program.CalculateSum(3, 2));
+            Assert.AreEqual(1, Program.CalculateDifference(3, 2));
         }
     }
 }
