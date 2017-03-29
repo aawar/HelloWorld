@@ -13,5 +13,10 @@ namespace HelloWorld
         {
             return "Hello World";
         }
+
+        public static int CalculateSum(int a, int b)
+        {
+            return a + b;
+        }
     }
 }

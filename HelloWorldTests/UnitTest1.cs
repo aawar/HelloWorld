@@ -12,5 +12,11 @@ namespace HelloWorldTests
         {
             Assert.AreEqual("Hello World", Program.CreateMessage());
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            Assert.AreEqual(5, Program.CalculateSum(2, 3));
+        }
     }
 }
