@@ -16,7 +16,13 @@ namespace HelloWorldTests
         [TestMethod]
         public void TestCalucalteSum()
         {
-            Assert.AreEqual(5, Program.CalculateSum(2, 3));
+            Assert.AreEqual(5, Program.CalculateSum(3, 2));
+        }
+
+        [TestMethod]
+        public void TestCalucalteDifference()
+        {
+            Assert.AreEqual(1, Program.CalculateSum(3, 2));
         }
     }
 }
