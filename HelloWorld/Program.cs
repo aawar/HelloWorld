@@ -18,5 +18,10 @@ namespace HelloWorld
         {
             return a + b;
         }
+
+        public static int CalculateDifference(int a, int b)
+        {
+            return a - b;
+        }
     }
 }
