@@ -11,7 +11,7 @@ namespace HelloWorld
 
         public static string CreateMessage()
         {
-            return "Hello World!";
+            return "Hello World";
         }
 
         public static int CalculateSum(int a, int b)
