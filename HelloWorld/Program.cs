@@ -16,12 +16,12 @@ namespace HelloWorld
 
         public static int CalculateSum(int a, int b)
         {
-            return a + b;
+            return a * b;
         }
 
         public static int CalculateDifference(int a, int b)
         {
-            return a - b;
+            return a / b;
         }
     }
 }
