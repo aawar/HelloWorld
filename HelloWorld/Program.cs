@@ -21,7 +21,7 @@ namespace HelloWorld
 
         public static int CalculateDifference(int a, int b)
         {
-            return a / b;
+            return a + b;
         }
     }
 }
