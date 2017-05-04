@@ -16,6 +16,8 @@ namespace HelloWorld
 
         public static int CalculateSum(int a, int b)
         {
+            int c;
+
             return a + b;
         }
 
