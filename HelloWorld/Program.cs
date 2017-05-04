@@ -16,7 +16,10 @@ namespace HelloWorld
 
         public static int CalculateSum(int a, int b)
         {
-            int c;
+            Object c;
+            string s;
+
+            //s = c.ToString();
 
             return a + b;
         }
